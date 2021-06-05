@@ -1,0 +1,23 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/koishijs/cryptobot.git",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "koishi start config.ts -- -r esbuild-register"
+  },
+  "dependencies": {
+    "koishi": "^3.11.2",
+    "koishi-adapter-discord": "^1.1.3",
+    "koishi-adapter-telegram": "^1.0.3",
+    "koishi-plugin-common": "^4.2.6",
+    "proxy-agent": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.1",
+    "esbuild-register": "^2.5.0",
+    "typescript": "^4.3.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strictBindCallApply": true
+  },
+  "include": [
+    "."
+  ]
+}
